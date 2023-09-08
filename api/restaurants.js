@@ -51,7 +51,7 @@ router.delete("/:id", async (req, res) => {
       .delete()
       .eq("id", id);
 
-    return res.status(200).send("Deleted restaurant row");
+    return res.status(204).send("Deleted restaurant row");
   } catch (error) {
     return res.status(500).send("Server error");
   }
