@@ -2,10 +2,10 @@
   "name": "fiap-backend-restaurants",
   "version": "1.0.0",
   "description": "Deploy express js to vercel.",
-  "main": "./src/index.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node --watch --no-warnings ./src/index.js"
+    "dev": "node --watch --no-warnings index.js"
   },
   "keywords": [],
   "author": "",
