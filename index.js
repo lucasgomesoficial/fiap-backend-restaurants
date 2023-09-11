@@ -1,7 +1,7 @@
-const express = require("express");
-const app = express();
+import express from "express";
+import restaurants from "./src/routes/restaurants.js"
 
-const restaurants = require("./api/restaurants");
+const app = express();
 
 app.use(express.json({ extended: false }));
 
