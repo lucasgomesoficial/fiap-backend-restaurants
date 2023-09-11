@@ -11,6 +11,5 @@
       "src": "/(.*)",
       "dest": "./src/routes/(*).js"
     }
-  ],
-  "rewrites": [{ "source": "/src/(.*)", "destination": "/" }]
+  ]
 }
