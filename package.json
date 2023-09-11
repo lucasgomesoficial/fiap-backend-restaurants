@@ -2,23 +2,16 @@
   "name": "fiap-backend-restaurants",
   "version": "1.0.0",
   "description": "Deploy express js to vercel.",
-  "main": "index.js",
+  "main": "./src/index.js",
+  "type": "module",
   "scripts": {
-    "dev": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hatuanem199801/express-vercel.git"
+    "dev": "node --watch --no-warnings ./src/index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hatuanem199801/express-vercel/issues"
-  },
-  "homepage": "https://github.com/hatuanem199801/express-vercel#readme",
   "dependencies": {
     "@supabase/supabase-js": "^2.33.1",
+    "@vinejs/vine": "^1.6.0",
     "dotenv": "^16.3.1",
     "express": "^4.17.1"
   }
